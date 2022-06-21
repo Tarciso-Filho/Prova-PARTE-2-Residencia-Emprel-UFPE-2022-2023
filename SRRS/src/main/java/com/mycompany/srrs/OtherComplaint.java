@@ -9,6 +9,9 @@ package com.mycompany.srrs;
  *
  * @author TFilho
  */
-public class OtherComplaint {
-    
+public class OtherComplaint extends Complaint
+{
+    private String idade, instrucao, ocupacao, ruaOcorrencia, compOcorrencia, 
+            bairroOcorrencia, cidadeOcorrencia, ufOcorrencia, cepOcorrencia, 
+            telefoneOcorrencia;
 }

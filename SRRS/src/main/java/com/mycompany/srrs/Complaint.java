@@ -11,7 +11,7 @@ package com.mycompany.srrs;
  */
 public class Complaint 
 {
-    private String descricaoQueixa, observacaoQueixa, nomeSolicitante, 
+    protected String descricaoQueixa, observacaoQueixa, nomeSolicitante, 
             ruaSolicitante, compSolicitante, bairroSolicitante, 
             cidadeSolicitante, ufSolicitante, cepSolicitante, telefoneSolicitante, 
             emailSolicitante;

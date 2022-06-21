@@ -9,6 +9,14 @@ package com.mycompany.srrs;
  *
  * @author TFilho
  */
-public class FoodComplaint {
+public class FoodComplaint extends Complaint
+{
+    private String nomeVitima, ruaVitima, compVitima, bairroVitima, cidadeVitima,
+            ufVitima, cepVitima, telefoneVitima, qtdeComensais, qtdeDoentes,
+            qtdeInternacoes, qtdeObitos, localAtendimento, refeicaoSuspeita;
     
+    public void setNomeSolicitante(String nomeSolicitante)
+    {
+        this.nomeSolicitante = nomeSolicitante;
+    }
 }

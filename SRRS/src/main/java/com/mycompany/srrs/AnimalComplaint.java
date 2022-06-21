@@ -9,6 +9,13 @@ package com.mycompany.srrs;
  *
  * @author TFilho
  */
-public class AnimalComplaint {
+public class AnimalComplaint extends Complaint
+{
+    private String nomeAnimal, qtdeAnimal, diaIncomodo, mesIncomodo, anoIncomodo,
+            ruaOcorrencia, compOcorrencia, bairroOcorrencia, cidadeOcorrencia, 
+            ufOcorrencia, cepOcorrencia, telefoneOcorrencia;
     
+    public void setBairroSolicitante(String bairroSolicitante) {
+        this.bairroSolicitante = bairroSolicitante;
+    }
 }
